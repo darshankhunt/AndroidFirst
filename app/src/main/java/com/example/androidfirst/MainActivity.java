@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String UserName = edUserName.getText().toString();
-                Toast.makeText(MainActivity.this,"User Name: "+UserName+" Successfully Register..!",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"User Name : "+UserName+" Successfully Register..!",Toast.LENGTH_LONG).show();
             }
         });
 
